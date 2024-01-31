@@ -1,0 +1,23 @@
+{
+  "name": "avtonet-bot",
+  "version": "1.0.0",
+  "description": "Embed image from avtonet",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Macko",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "nodemon": "^3.0.3",
+    "puppeteer": "^21.10.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
